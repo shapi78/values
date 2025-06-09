@@ -1,0 +1,17 @@
+replicaCount: 1
+
+namespace: my-namespace
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+secret:
+  name: app-secret
+  username: myuser
+  password: mypass
+
+volume:
+  name: app-pvc
+  size: 1Gi
