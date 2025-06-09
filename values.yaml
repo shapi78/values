@@ -38,7 +38,7 @@ global:
 nameOverride: ""
 ## @param fullnameOverride String to fully override nginx.fullname template
 ##
-fullnameOverride: "Shapi78"
+fullnameOverride: "shapi78"
 ## @param namespaceOverride String to fully override common.names.namespace
 ##
 namespaceOverride: ""
